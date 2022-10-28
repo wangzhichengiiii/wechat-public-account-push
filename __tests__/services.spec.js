@@ -646,8 +646,6 @@ describe('services', () => {
     config.CUSTOMIZED_DATE_LIST = [
       // 在一起的日子
       { keyword: 'love_day', date: '2015-05-01' },
-      // 结婚纪念日
-      { keyword: 'marry_day', date: '2020-01-04' },
       // 退伍日, 不用可以删掉
       { keyword: 'ex_day', date: '2022-09-09' },
       // sakana日
@@ -659,11 +657,7 @@ describe('services', () => {
       date: '2015-05-01',
       diffDay: 2683,
       keyword: 'love_day',
-    }, {
-      date: '2020-01-04',
-      diffDay: 974,
-      keyword: 'marry_day',
-    }, {
+    },{
       date: '2022-09-09',
       diffDay: 6,
       keyword: 'ex_day',
